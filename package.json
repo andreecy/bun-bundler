@@ -1,0 +1,13 @@
+{
+  "name": "bun-bundler",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --watch devserver.ts"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
